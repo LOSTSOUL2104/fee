@@ -1,0 +1,29 @@
+* {
+  background-color: rgb(34, 21, 77);
+}
+.image {
+  width: 40%;
+  margin-left: 25%;
+  margin-top: 100px;
+  color: rgb(46, 39, 39);
+  border: 30px solid black;
+}
+
+.main {
+  position: relative;
+  animation: move-words 10s linear infinite;
+  margin: 10;
+  color: rgb(250, 248, 246);
+  font-size: 80px;
+  font-weight: 70;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+}
+@keyframes move-words {
+    0% {
+      left: 100%;
+    }
+    100% {
+      left: -100%;
+    }
+  }
